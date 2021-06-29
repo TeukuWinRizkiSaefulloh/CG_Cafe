@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CG_Cafe</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_logout">Logout</string>
+    <string name="nav_drawer_open">Open Navigation header</string>
+    <string name="nav_drawer_close">Close Navigation header</string>
+    <string name="name">Nama</string>
+    <string name="jabatan">Jabatan</string>
+    <string name="top_app_bar">Menu</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cafe_gue">Cafe Gue</string>
+
+</resources>
