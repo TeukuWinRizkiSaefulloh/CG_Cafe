@@ -14,14 +14,14 @@ import retrofit2.http.POST;
 public interface ApiInterface {
 
     @FormUrlEncoded
-    @POST("KaryawanController.php")
+    @POST("login")
     Call<Login> loginResponse(
             @Field("email") String email,
             @Field("password") String password
     );
 
     @FormUrlEncoded
-    @POST("orderpesanan.php")
+    @POST("orderpesanan")
     Call<ResponseModel> ardOrderData(
             @Field("id") String id,
             @Field("idMenu") String idMenu,
@@ -34,20 +34,20 @@ public interface ApiInterface {
             @Field("status") String status
     );
 
-    @GET("DataPesananController.php")
+    @GET("DataPesananController")
     Call<ResponseModel> ardPesananData();
 
-    @GET("DataKasirController.php")
+    @GET("DataKasirController")
     Call<ResponseModel> ardKasirData();
 
-    @GET("HistoryPesananController.php")
+    @GET("HistoryPesananController")
     Call<HistoryModel> ardHistoryData();
 
-    @GET("MenuHidanganController.php")
+    @GET("MenuHidanganController")
     Call<PemesananModel> ardPemesananData();
 
     @FormUrlEncoded
-    @POST("updatedatapesanan.php")
+    @POST("updatedatapesanan")
     Call<ResponseModel> ardUpdateData(
             @Field("id") String id,
             @Field("status") String status);
